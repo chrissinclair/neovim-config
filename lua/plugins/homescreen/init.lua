@@ -14,9 +14,8 @@ function Homescreen.setup(use)
         dashboard.button("f f", " " .. " Find file", ":Files<CR>"),
         dashboard.button("f r", " " .. " Recent files", ":History<CR>"),
         dashboard.button("f g", " " .. " Find text", ":Rg<CR>"),
-        dashboard.button("s", " " .. " Studio projects", ":cd S:\\<CR>"),
-        dashboard.button("r", " " .. " Git repos", ":cd R:\\<CR>"),
-        dashboard.button("p", "󰙃 " .. " Personal projects", ":cd P:\\<CR>"),
+        dashboard.button("z", " " .. " Work projects", ":cd Z:\\<CR>"),
+        dashboard.button("p", "󰙃 " .. " Personal projects", ":cd Z:\\Personal<CR>"),
         dashboard.button("q", " " .. " Quit", ":qa<CR>"),
     }
 

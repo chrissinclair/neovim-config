@@ -4,8 +4,8 @@ vim.g.loaded_netrwPlugin = 1
 local indent = 4
 
 if vim.loop.os_uname().sysname == "Windows_NT" then
-    vim.opt.runtimepath:append("C:\\Users\\chris\\.vim_runtime")
-    vim.opt.runtimepath:append("C:\\Users\\chris\\.vim")
+    vim.opt.runtimepath:append("C:\\Users\\csinclair\\.vim_runtime")
+    vim.opt.runtimepath:append("C:\\Users\\csinclair\\.vim")
 else
     vim.opt.runtimepath:append("~/.vim_runtime")
     vim.opt.runtimepath:append("~/.vim")
@@ -85,7 +85,7 @@ vim.opt.smartindent = true
 vim.opt.wrap = true
 
 if vim.loop.os_uname().sysname == "Windows_NT" then
-    vim.opt.undodir = "C:\\Users\\chris\\.vim_runtime\\temp_dirs\\undodir"
+    vim.opt.undodir = "C:\\Users\\csinclair\\.vim_runtime\\temp_dirs\\undodir"
 else
     vim.opt.undodir = "~/.vim_runtime/temp_dirs/undodir"
 end
